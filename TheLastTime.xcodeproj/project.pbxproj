@@ -19,6 +19,7 @@
 		7141B280193DABD30084F9F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141B268193DABD30084F9F1 /* UIKit.framework */; };
 		7141B288193DABD30084F9F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7141B286193DABD30084F9F1 /* InfoPlist.strings */; };
 		7141B28A193DABD30084F9F1 /* TheLastTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141B289193DABD30084F9F1 /* TheLastTimeTests.m */; };
+		E70D6B5D19D241DA00F8263C /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70D6B5C19D241DA00F8263C /* TimeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7141B285193DABD30084F9F1 /* TheLastTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheLastTimeTests-Info.plist"; sourceTree = "<group>"; };
 		7141B287193DABD30084F9F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7141B289193DABD30084F9F1 /* TheLastTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheLastTimeTests.m; sourceTree = "<group>"; };
+		E70D6B5B19D241DA00F8263C /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		E70D6B5C19D241DA00F8263C /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				7141B273193DABD30084F9F1 /* AppDelegate.h */,
 				7141B274193DABD30084F9F1 /* AppDelegate.m */,
+				E70D6B5B19D241DA00F8263C /* TimeViewController.h */,
+				E70D6B5C19D241DA00F8263C /* TimeViewController.m */,
 				7141B276193DABD30084F9F1 /* Images.xcassets */,
 				7141B26B193DABD30084F9F1 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				7141B275193DABD30084F9F1 /* AppDelegate.m in Sources */,
 				7141B271193DABD30084F9F1 /* main.m in Sources */,
+				E70D6B5D19D241DA00F8263C /* TimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +443,7 @@
 				7141B28F193DABD30084F9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7141B290193DABD30084F9F1 /* Build configuration list for PBXNativeTarget "TheLastTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				7141B292193DABD30084F9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
